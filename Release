@@ -1,8 +1,8 @@
-Origin classic
-Label classic
+Origin: classic
+Label: classic
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description سورس  يوحد به ادوات مدفوعه 
+Description: سورس  يوحد به ادوات مدفوعه 
