@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {background: #efeff4 ; text-align: center}
+h1 {font-family: 'Play', sans-serif;}
+.cydia { padding: 0px ; background: #EFEFF4 ; display: block }
+.cydia button { color: white ;  background-image: linear-gradient(141deg, #888e90 0%, #bbc0c1 100%) !important; width:100%; border-radius: 7px ; border: none ; font-family: 'Cairo', sans-serif ; font-size: 18px }
+
+.sileo {  display: block;  }
+
+.sileo button { background-image: linear-gradient(to right, #ED213A 0%, #ED213A 100%);
+	width: 100%; border-radius: 7px ; border: none; font-size: 18px ; font-family: 'Cairo', sans-serif ;  }
+ img { ; margin-left: 10px;  }
