@@ -1,0 +1,360 @@
+Package: applist
+Version: 1.5.15~beta1
+Architecture: iphoneos-arm 
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Filename: debs/applist_1.5.15~beta1_iphoneos-arm.deb
+Size: 104730 
+MD5sum: 2fca5a5135a60e2c4c58ba4cb4575e8b
+SHA1: 812fddf63980694c89ff44346c7a7f18782466c2
+SHA256: 55cb9b74d2201d58f3dcde5765c103d305180222fe61a18baa644d84153fa0aa
+Section:  System
+Priority: optional
+Description: Allow extensions to read the list of installed apps
+Author: Ryan Petrich
+Depiction:
+Name: applist
+
+Package: ca.infiniteoptions
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 
+Depends:  firmware (>= 10.0), wget, apt | apt7
+Conflicts: 
+Filename: debs/ca.infiniteoptions_1.0_iphoneos-arm.deb
+Size: 13032328
+MD5sum: aa3bf31d9510543818d7d8066cad622c
+SHA1: 5edad102c59734371d2c06773d5010da48d6982e
+SHA256: a7997a89fd9122e585fc0a78697db7f7fdf12c45b90ce4c8c31b9535664668a6
+Section: Tweaks
+Priority: optional
+Description:
+Author: CA Team
+Depiction: 
+Name: iNfiniteOptions
+
+Package: co.azozzalfiras.lockapps
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: 
+Depends: mobilesubstrate, com.spark.libsparkapplist, ws.hbang.common
+Conflicts: 
+Filename: debs/co.azozzalfiras.lockapps_2.0_iphoneos-arm.deb
+Size: 488042
+MD5sum: 93c2779be4fa2bf6a57dd72f3e7fd6ec
+SHA1: 91f505bdfce41fb8714960e2e1c96c9927d2c1f5
+SHA256: 3673fdb8700d28a7a97d47c94d0b97f2ea3e64d22dbb21e7dd243ccfc5416fc5
+Section: Tweaks
+Priority: optional
+Description: Lock Apps by Face id & Touch id & Password!
+Author: Azozz ALFiras
+Depiction: 
+Name: LockApps
+
+Package: com.adamseiter.animationsbefastplus
+Version: 4.3
+Architecture: iphoneos-arm
+Maintainer: 
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader (>=2.2.4) | preferenceloader (>=2.2.4~coolstar2), applist, com.rpetrich.rocketbootstrap
+Conflicts: com.adamseiter.animationsbefast,com.pulandres.animationsbefastpluss, jp.novi.FakeClockUp, jp.novi.FakeClockUp2, com.zezblog.noslowanimationsar, com.marcosinghof.noslowanimations, com.pknauf.nsa, com.idevicehacked.nsa
+Filename: debs/com.adamseiter.animationsbefastplus_4.3_iphoneos-arm.deb
+Size: 66592
+MD5sum: 39203228811533a45b92e5533e3a5831
+SHA1: 8e46e623f63a0c5a2f7913deb6a9388e82d39dbd
+SHA256: 2365aa3736fa3e9f5a241d44a7d422de77aebabca76b85f30031125471dd8851
+Section: Tweaks
+Priority: optional
+Description:
+Author: eXqusic
+Depiction: 
+Name: AnimationsBeFastPlus
+
+Package: com.dunkston.circleicons
+Version: 1.3-1
+Architecture: iphoneos-arm
+Maintainer: 
+Depends: mobilesubstrate
+Conflicts: 
+Filename: debs/com.dunkston.circleicons_1.3-1+debug_iphoneos-arm.deb
+Size: 7532
+MD5sum: e1243e9b4ea9fc6aca0287699698d6fa
+SHA1: bccc25d26036f81fd53a1bf6b1f74354e193f07b
+SHA256: 127f103773885f826037b30cb4029b6e2d2f4ce70aea0315d3d992e883f5e28a
+Section: Tweaks
+Priority: optional
+Description: Transforms your app icons into circles!
+Author: dunkston
+Depiction: 
+Name:  Circle Icons
+
+Package:  com.gilshahar7.batterynotch
+Version: 1.5.4
+Architecture: iphoneos-arm
+Maintainer: 
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Conflicts: 
+Filename: debs/com.gilshahar7.batterynotch_1.5.4_iphoneos-arm.deb
+Size: 45660
+MD5sum: eb8b5b05c644becc9eeb2ee044f617c4
+SHA1: fac01554b725b60045c3775ba26298ab9229e792
+SHA256: 490ae6cfe06705687204065c337dabb3234799e3bcf4b3fd4f5c8f74651a8e09
+Section: Tweaks
+Priority: optional
+Description:
+Author: gilshahar7
+Depiction: 
+Name: BatteryNotch
+
+Package: com.golddavid.colorbadges-new
+Version: 1.4.4
+Architecture: iphoneos-arm
+Maintainer: 
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
+Conflicts: org.thebigboss.colorbadges
+Filename: debs/com.golddavid.colorbadges-new_1.4.4_iphoneos-arm.deb
+Size: 59612
+MD5sum: 869211e77ad806bc133190bad816e92b
+SHA1: 898276b77bc45f123bdb1fab9afd2191bea244d6
+SHA256: 965c2f53ab622265ba1a47e1cecb63ecc0693c6ebc775d7b1834569bdce8869a
+Section: Tweaks
+Priority: optional
+Description: Colorize your badges
+Author: David Goldman
+Depiction:
+Name:  ColorBadges 
+
+Package:  com.tigisoftware.filza
+Version: 3.7.4-12
+Architecture: iphoneos-arm
+Maintainer: 
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Filename: debs/com.tigisoftware.filza64bit_3.7.4-12_iphoneos-arm.deb
+Size: 8568968
+MD5sum: 854f3ae8590f3485a8d233d8b09bedd0
+SHA1: e58f8c453ddb1cf71b447e829f01d8e39f6c02a8
+SHA256: edd5e0763786e09487fb0d595fe73a3d94dc2cd358aefcea1e9b58b74f17f8e0
+Section: Tweaks
+Priority: optional
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Author: TIGI Software
+Depiction: 
+Name: Filza File Manager
+
+Package: com.sharedroutine.ohw2
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 
+Depends: mobilesubstrate
+Conflicts: 
+Filename: debs/com.sharedroutine.ohw2_1.0_iphoneos-arm.deb
+Size: 43534
+MD5sum: 3a4ab79670be198ee49fc7d858978588
+SHA1: 067c8cc55af43372f891760bf38f36ed8d593d5a
+SHA256: 602606e63e7c16f7e566b78460a3ddbab51381b90292407244bb4d42cee6e43f
+Section: Tweaks
+Priority: optional
+Description:  Use your large phones comfortably in one hand
+Author: sharedRoutine
+Depiction: 
+Name: OneHandWizard 2
+ 
+Package: com.julioverne.goodwifi
+Version: 0.0~beta5
+Architecture: iphoneos-arm
+Maintainer: 
+Depends: mobilesubstrate, preferenceloader
+Conflicts: 
+Filename: debs/com.julioverne.goodwifi_0.0~beta5_iphoneos-arm.deb
+Size: 128608
+MD5sum: 0ae4fff284acdb6e398819f26b4f78ec
+SHA1: 32095bc6ee409ce1ab3e252e42cf7d5aa281ae50
+SHA256: 8b3970eb773db7bd96213979b9dcd79e104ebd38d8a016c06c52ee53ab239f1f
+Section: Tweaks
+Priority: optional
+Description:  Better WiFi Preferences
+Author: julioverne
+Depiction: 
+Name:  GoodWiFi
+ 
+Package:  com.ichitaso.otadisabler
+Version:  0.1-7
+Architecture: iphoneos-arm
+Maintainer: 
+Depends: firmware (>= 9.0), system-cmds, mobilesubstrate
+Conflicts: 
+Filename: debs/com.ichitaso.otadisabler_0.1-7_iphoneos-arm.deb
+Size: 24350
+MD5sum: f396c8ff22030f444031327ee35d8240
+SHA1: 08398741d0d7b857bd636463c8ff067a21609785
+SHA256: 2c7a96c946521cfdfdc22daf5e81cced08048255349cdf9445dfe87ba6f4d467
+Section: System
+Priority: optional
+Description:  Delete and disable OTA badge
+Author: ichitaso
+Depiction: 
+Name:  OTADisabler
+ 
+Package:  com.exile90.icleanerpro
+Version: 7.8.0
+Architecture: iphoneos-arm
+Maintainer: 
+Depends:  firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Filename: debs/com.exile90.icleanerpro_7.8.0_iphoneos-arm.deb
+Size: 5189780
+MD5sum: 8ef71615f225c91deac803aff2826728
+SHA1: 5349b3e09ebedd754e62682b7739bead113e5291
+SHA256: 5e11c3c904c78315a10b8e0636849f5881428b390767d44da8b8a8574b048cf2
+Section:  Utilities
+Priority: optional
+Description:  
+Author:  Ivano Bilenchi
+Depiction: 
+Name:   iCleaner Pro
+ 
+Package:  com.cc.animatedweatherwidget
+Version: 2.8-2
+Architecture: iphoneos-arm
+Maintainer: 
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, com.bingner.plutil, system-cmds
+Conflicts: 
+Filename: debs/com.cc.animatedweatherwidget_2.8-2_iphoneos-arm.deb
+Size: 56212
+MD5sum: 5d525a4df7b99611f850256ba3e752be
+SHA1: 0188e700ee8a578c688cbd6c0f66b4d39666095e
+SHA256: 6e6d01ee4832bfb58d6c93252e81d1be4547c671cb4fd0f3a749c868535c8e78
+Section: Tweaks
+Priority: optional
+Description:  Animated weather in weather widget
+Author:  cole cabral
+Depiction: 
+Name:  WeatherWidget
+ 
+Package: com.gh.fastx
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: 
+Depends: mobilesubstrate
+Conflicts: 
+Filename: debs/com.gh.fastx_1.4_iphoneos-arm.deb
+Size: 16796
+MD5sum: 73741ede92f9ce0b4495f17d9331dc1b
+SHA1: 65cc49d2f647b6dc00e8c9f520d074b57619be45
+SHA256: 2f9540c265e8a6ef7026262ef8b35cd090c8e6df514c053c76f8f33c693c6046
+Section: Tweaks
+Priority: optional
+Description:  iphone will be so fast
+Author: mostafa
+Depiction: 
+Name:  FastX
+ 
+Package: com.unlimapps.twitterpp
+Version: 1.2r-82
+Architecture: iphoneos-arm
+Maintainer: 
+Depends: firmware (>= 5.0), mobilesubstrate, com.unlimapps.uasharedtools (>= 2.2r-61)
+Conflicts: 
+Filename: debs/com.unlimapps.twitterpp_1.2r-82_iphoneos-arm.deb
+Size: 882910
+MD5sum: 59a9d196f0107f67b188ee5659d95639
+SHA1: a64897b287d5fc6724b3e3bda8d2bf19ed01cdc3
+SHA256: f27c001e195fc84ec1bec6a0408cf90921d40f094e0189fcdc93ce62a046c679
+Section: Tweaks
+Priority: optional
+Description:  The Twitter tweak that give you more sharing options, long tweets and much more!
+Author: UnlimApps Inc
+Depiction: 
+Name:  Twitter ++
+ 
+Package: com.unlimapps.gramplus
+Version: 1.8r-300
+Architecture: iphoneos-arm
+Maintainer: 
+Depends: mobilesubstrate, firmware (>= 7.0), com.unlimapps.uasharedtools (>= 2.2r-94)
+Conflicts: repo.biteyourapple.net.pluscrack, repo.biteyourapple.net.gramplus, com.jake0oo0.instabetter, com.insanj.savegram
+Filename: debs/com.unlimapps.gramplus_1.8r-300_iphoneos-arm.deb
+Size: 9674700
+MD5sum: 6536ada5cdb322abac3ee959cf706997
+SHA1: 35fc672a2f54397d38ed8639b487e8167b6fb27c
+SHA256: 6de33f0b80f1c70b7bc5d31cd16d4cb052276645d963ada5a94846c72510996c
+Section: Tweaks
+Priority: optional
+Description:  Download & Copy Instagram media
+Author: UnlimApps Inc.
+Depiction: 
+Name:  Instagram ++
+ 
+Package: com.unlimapps.uasharedtools.nostash
+Version: 2.2r-94
+Architecture: iphoneos-arm
+Maintainer: 
+Depends:  mobilesubstrate, firmware (>= 11.0)
+Conflicts:  com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools, com.unlimapps.uasharedtools.nostash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Filename: debs/com.unlimapps.uasharedtools.nostash_2.2r-94_iphoneos-arm.deb
+Size: 19862136
+MD5sum: 77fe0e2f8ae8c223bf4e355005962968
+SHA1: 88d1120f6269d69fd151cd14008631769fd2d373
+SHA256: d76c3dae69ddcb5f60e2033f588cf8f8194cf54889392a9fc0b2fed65d088157
+Section: Development
+Priority: optional
+Description:  shared tools for unlimapps tweaks
+Author: 
+Depiction: 
+Name:  uasharedtools (iOS 11)
+ 
+Package: com.cokepokes.appstoreplusplus
+Version: 0.9.8-6
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Filename: deb/com.cokepokes.appstoreplusplus_0.9.8-6_iphoneos-arm.deb
+Size: 1342920
+MD5sum: d4034af0d3d081fc5105624edd6b2ca2
+SHA1: c1580d22d1569997e5474dd92961f2657e749674
+SHA256: a59ae1b5d977119b8bb8a6ad2623e7fc24ad7c5f86ff2a57c3935aeb0669d888
+Section: Tweaks
+Priority: optional
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3.1
+Author: CokePokes
+Depiction: 
+Name: AppStore++ 
+
+Package:  com.spark.batterypercentx
+Version: 1.4.1-33
+Architecture: iphoneos-arm
+Maintainer: 
+Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
+Conflicts: 
+Filename: debs/com.spark.batterypercentx_1.4.1-33_iphoneos-arm.deb
+Size: 146610
+MD5sum: 8a6d91f8ddda678a7b2ff6caa2ab05be
+SHA1: c8d263c42aa37adf98a3a46cc1b32868d85e77f7
+SHA256: bba9bca7ade815a2ee733f07808f6310ef02db5dd8176800d045c7bfccec12da
+Section: Tweaks
+Priority: optional
+Description: Replaces the battery icon with percentage on the iPhone X
+Author: 
+Depiction: 
+Name:  BatteryPercentX
+ 
+Package: com.asterix.digitalbattery13
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: 
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.creaturesurvive.libcscolorpicker
+Conflicts: com.spark.batterypercentx, com.neinzedd9.percentagebatteryx, com.dpkg.batterypercent12, com.dpkg.arkrome, ca.ndoizo.perxent, com.asterix.modernbatteryx, com.laughingquoll.cowbell, com.peterdev.half, com.asterix.digitalnotchedbattery
+Filename: debs/com.asterix.digitalbattery13_1.0.0_iphoneos-arm.deb
+Size: 37350
+MD5sum: a79f7e5a37485ece03af03d11e2ca05d
+SHA1: 54a17c8fe6c893140ef4dc802caab9c795382954
+SHA256: 3f0f1d54003bec19880fd9119cf4a6d18d6c43e621c1a5c1da63e870c062738f
+Section: Tweaks
+Priority: optional
+Description: Digital battery in statusbar for iOS13
+Author: asterix
+Depiction: 
+Name:  DigitalBattery13
+ 
+
